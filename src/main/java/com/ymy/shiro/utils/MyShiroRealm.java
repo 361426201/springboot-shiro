@@ -55,7 +55,7 @@ public class MyShiroRealm extends AuthorizingRealm {
             //session中不需要保存密码
             user.setPassword("");
             //将用户信息放入session中
-            SecurityUtils.getSubject().getSession().setAttribute("token", user);
+           // SecurityUtils.getSubject().getSession().setAttribute("token", user);
 
 
 
